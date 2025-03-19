@@ -1,6 +1,51 @@
-#imagem{
-    left: 200px;
-    height: 400px;
-border-radius: 2%;
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 100 50 100 50;
+    padding: 0;
+    background-color: blue;
+}
 
+#main{
+    background-color: white;
+    height: auto;
+    width: 90%;
+    max-width: 1500;
+    margin: 0 auto;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 567);
+padding: 40px;
+}
+
+#alinhamento {
+    height:auto ;
+    width: 90%;
+    margin:0 auto;
+}
+
+#imagem{
+
+    height: 200px;
+    background: url(imagens/pexels-nikolaos-dimou-1250289.jpg)no-repeat center center/cover;
+    border-radius: 10px;
+}
+
+h1 {
+
+    text-align-last: center;
+
+}
+.col30{
+    width:30% ;
+    border: 1px solid red;
+}
+.col70{
+    width: 70%;
+    border: 1px  solid blue;
+   
+} 
+.row{ display: flex;
+        
+}
+input{
+    width: 100%;
 }
